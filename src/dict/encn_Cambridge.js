@@ -36,7 +36,7 @@ class encn_Cambridge {
                 return node.innerText.trim();
         }
 
-        let base = 'https://dictionary.cambridge.org/search/english-chinese-simplified/direct/?q=';
+        let base = 'https://www.vocabulary.com/dictionary/?q=';
         let url = base + encodeURIComponent(word);
         let doc = '';
         try {
